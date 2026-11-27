@@ -1,0 +1,20 @@
+@font-face { font-family: "Huyawo"; src: url("assets/sans-regular.woff") format("woff"); font-style: normal; font-weight: 400 600; font-display: swap; }
+@font-face { font-family: "Huyawo"; src: url("assets/sans-bold.woff") format("woff"); font-style: normal; font-weight: 601 1000; font-display: swap; }
+@font-face { font-family: "Huyawo Arabic"; src: url("assets/arabic-regular.woff") format("woff"); font-style: normal; font-weight: 400 600; font-display: swap; }
+@font-face { font-family: "Huyawo Arabic"; src: url("assets/arabic-bold.woff") format("woff"); font-style: normal; font-weight: 601 1000; font-display: swap; }
+:root[lang="ar"], .languages [lang="ar"], :root[lang="fa"], .languages [lang="fa"] { font-family: "Huyawo Arabic", Huyawo, system-ui, sans-serif; }
+@font-face { font-family: "Huyawo Indic"; src: url("assets/indic-regular.woff") format("woff"); font-style: normal; font-weight: 400 600; font-display: swap; }
+@font-face { font-family: "Huyawo Indic"; src: url("assets/indic-bold.woff") format("woff"); font-style: normal; font-weight: 601 1000; font-display: swap; }
+:root[lang="hi"], .languages [lang="hi"] { font-family: "Huyawo Indic", Huyawo, system-ui, sans-serif; }
+@font-face { font-family: "Huyawo JP"; src: url("assets/japanese-regular.woff") format("woff"); font-style: normal; font-weight: 400 600; font-display: swap; }
+@font-face { font-family: "Huyawo JP"; src: url("assets/japanese-bold.woff") format("woff"); font-style: normal; font-weight: 601 1000; font-display: swap; }
+:root[lang="ja"], .languages [lang="ja"] { font-family: "Huyawo JP", Huyawo, system-ui, sans-serif; }
+@font-face { font-family: "Huyawo KR"; src: url("assets/korean-regular.woff") format("woff"); font-style: normal; font-weight: 400 600; font-display: swap; }
+@font-face { font-family: "Huyawo KR"; src: url("assets/korean-bold.woff") format("woff"); font-style: normal; font-weight: 601 1000; font-display: swap; }
+:root[lang="ko"], .languages [lang="ko"] { font-family: "Huyawo KR", Huyawo, system-ui, sans-serif; }
+@font-face { font-family: "Huyawo SC"; src: url("assets/simplified-regular.woff") format("woff"); font-style: normal; font-weight: 400 600; font-display: swap; }
+@font-face { font-family: "Huyawo SC"; src: url("assets/simplified-bold.woff") format("woff"); font-style: normal; font-weight: 601 1000; font-display: swap; }
+:root[lang="zh-Hans"], .languages [lang="zh-Hans"] { font-family: "Huyawo SC", Huyawo, system-ui, sans-serif; }
+@font-face { font-family: "Huyawo TC"; src: url("assets/traditional-regular.woff") format("woff"); font-style: normal; font-weight: 400 600; font-display: swap; }
+@font-face { font-family: "Huyawo TC"; src: url("assets/traditional-bold.woff") format("woff"); font-style: normal; font-weight: 601 1000; font-display: swap; }
+:root[lang="zh-Hant"], .languages [lang="zh-Hant"] { font-family: "Huyawo TC", Huyawo, system-ui, sans-serif; }
